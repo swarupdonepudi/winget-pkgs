@@ -1,0 +1,26 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Planton.Desktop
+PackageVersion: 0.0.108
+InstallerLocale: en-US
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: Planton
+ReleaseDate: 2026-10-01
+AppsAndFeaturesEntries:
+- DisplayName: Planton
+  Publisher: planton
+  ProductCode: Planton
+InstallationMetadata:
+  DefaultInstallLocation: '%LocalAppData%\Planton'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://downloads.planton.app/desktop/v0.0.108/planton-desktop-v0.0.108-windows-x64-setup.exe
+  InstallerSha256: A5881175D4CF37903A9EF4197B9A3C005A7B6535CEEF59F5ACFA0832018252E0
+ManifestType: installer
+ManifestVersion: 1.12.0
